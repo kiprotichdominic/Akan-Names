@@ -1,0 +1,6 @@
+/* imports files */
+@import url("bootstrap.min.css");
+@import url("bootstrap.css");
+.firstclass {
+	background-color: gold;
+}
