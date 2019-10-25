@@ -1,6 +1,14 @@
 /* imports files */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("bootstrap.min.css");
 @import url("bootstrap.css");
 .firstclass {
 	background-color: gold;
+}
+.howit {
+	font-size: 45px;
+	font-weight: bold;
+}
+.myform {
+	background-color: rgb(245, 245, 245);
 }
