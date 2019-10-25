@@ -73,17 +73,18 @@
 					</div>
 				</div>
 			</div>
+			<div id="display"></div>
 			<div class="container jumbotron myform">
 				<form action="#" class="form-group">
 					<div class="form-group">
 						<label for="year">Enter The year you were born:</label>
 						<input
+							id="year"
 							type="number"
 							class="form-control"
 							max="2019"
-							min="0000"
-							maxlength="4"
-							minlength="4"
+							min="1500"
+							max-length="4"
 							size="4"
 							required
 						/>
@@ -91,38 +92,38 @@
 					<div class="form-group">
 						<label for="month">Enter the month you were born:</label>
 						<input
+							id="month"
 							type="number"
 							class="form-control"
 							min="1"
 							max="12"
-							maxlength="2"
-							minlength="1"
+							max-length="2"
 							required
 						/>
 					</div>
 					<div class="form-group">
 						<label for="day">Enter the day you were born:</label>
 						<input
+							id="day"
 							type="number"
 							class="form-control"
 							min="1"
 							max="31"
-							maxlength="2"
-							minlength="1"
+							max-length="2"
 							required
 						/>
 						<div>
 							<label for="radio" class="radio-inline">
-								<input type="radio" name="Male" />
+								<input type="radio" name="Male" id="male" />
 								Male
 							</label>
 							<label for="radio" class="radio-inline">
-								<input type="radio" />
+								<input type="radio" name="Male" class="male" />
 								Female
 							</label>
 						</div>
 					</div>
-					<button type="button" class="btn btn-danger">
+					<button type="submit" class="btn btn-danger" onclick="printName()">
 						Submit
 					</button>
 				</form>
