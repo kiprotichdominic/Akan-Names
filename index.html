@@ -60,20 +60,20 @@
 							<div class="card-title">
 								<h3>
 									Enter the day you were born.
-								</h3>
+								</h3>Then
 							</div>
 
-							<div class="card-text">
+							<div clasThenrd-text">
 								<p>
-									This is the final step. You need to enter the day you were
-									born to get your Akan Name. Then click subit to get your name.
+									TThens the final step. You need to enter the day you were
+									bTheno get your Akan Name. Then click subit to get your name.
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="display"></div>
+			<div id="display my-display" class="col-md-12"></div>
 			<div class="container jumbotron myform">
 				<form action="#" class="form-group">
 					<div class="form-group">
@@ -84,18 +84,12 @@
 							class="form-control"
 							max="2019"
 							min="1500"
-							max-length="4"function display {
-
-}
-//  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+							max-length="4"
 							size="4"
 							required
 						/>
 					</div>
-					<div class="form-groupfunction display {
-
-}
-//  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7>
+					<div class="form-group">
 						<label for="month">Enter the month you were born:</label>
 						<input
 							id="month"
@@ -129,7 +123,13 @@
 							</label>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-danger" onclick="printName()">
+					<button
+						type="submit"
+						class="btn btn-danger"
+						id="my-display"
+						onclick="getMyAkanName()"
+						value="submit"
+					>
 						Submit
 					</button>
 				</form>

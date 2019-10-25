@@ -1,5 +1,5 @@
 //declare an array for my names
-const femaleAkanName = [
+var femaleAkanName = [
 	"Akosua",
 	"Adwoa",
 	"Abenaa",
@@ -8,7 +8,7 @@ const femaleAkanName = [
 	"Afua",
 	"Ama"
 ];
-const maleAkanName = [
+var maleAkanName = [
 	"Kwasi",
 	"Kwadwo",
 	"Kwabena",
@@ -18,24 +18,23 @@ const maleAkanName = [
 	"Kwame"
 ];
 
-function maleAkanName() {
-	var day = parseInt(document.getElementById("day")).value;
-	var year = parseInt(document.getElementById("year")).value;
-	var month = parseInt(document.getElementById("month")).value;
+var daysWeek = [
+	"Sunday",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+	"Saturday"
+];
+function getMyAkanName() {
+	var year = parseInt(document.getElementById("year").value);
+	var month = parseInt(document.getElementById("month").value);
+	var day = parseInt(document.getElementById("day").value);
+	var gender = getGender();
+	var date = new date(year + "/" + month + "/" + day);
+	var dateOfBirth = date.getDay();
+	var akanName;
 }
-function femaleAkanName() {
-	var day = parseInt(document.getElementById("day")).value;
-	var year = parseInt(document.getElementById("year")).value;
-	var month = parseInt(document.getElementById("month")).value;
-}
-function getWeekDay(century, year, month, date) {
-	WeekDay =
-		(century / 4 -
-			2 * century -
-			1 +
-			(5 * year) / 4 +
-			(26 * (month + 1)) / 10 +
-			date) %
-		7;
-	alert(dayOfWeek.value);
-}
+alert("You were born on" + daysWeek[dateOfBirth] + "and");
+
