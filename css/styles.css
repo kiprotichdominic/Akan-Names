@@ -56,3 +56,9 @@ main {
 .cardx > p > span {
 	color: gold;
 }
+.myradio {
+	padding-top: 10px;
+}
+.myalert {
+	text-align: center;
+}
