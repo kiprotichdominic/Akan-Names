@@ -24,50 +24,57 @@
 					How It Works
 				</h2>
 				<div class="row">
+				 <div class="row">
 					<div class="col-md-4">
-						<div class="card card-body">
-							<div class="card-title">
-								<h3>
-									Enter your year of birth
-								</h3>
+						<div class="card m-4">
+							<div class="view overlay">
+								<img
+									src="/images/year"
+									class="img-fluid"
+									alt=""
+								/>
+								<a href="#">
+									<div class="mask rgba-white-slight"></div>
+								</a>
 							</div>
-
-							<div class="card-text">
-								<p>
-									The system will prompt you the year you were born. You enter
-									it there.
+							<div class="card-body">
+								<h4 class="card-title">Enter Year Of Birth</h4>
+								<p class="card-text">
+									Enter The year you were born so as to generate your akan
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="card card-body">
-							<div class="card-title">
-								<h3>
-									Enter your month of birth. To get your Akan Name
-								</h3>
-							</div>
-
-							<div class="card-text">
-								<p>
-									Now enter your month of birth.
-								</p>
+							<div class="card m-4">
+								<div class="view overlay">
+									<img
+										src="/images/month.jpg"
+										class="img-fluid"
+										alt=""
+									/>
+									<a href="#">
+										<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+								<div class="card-body">
+									<h4 class="card-title">Enter Month Of Birth</h4>
+									<p class="card-text">
+										Enter The month you were born so as to generate your akan
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
 					<div class="col-md-4">
-						<div class="card card-body">
-							<div class="card-title">
-								<h3>
-									Enter the day you were born.
-								</h3>
-							</div>
+						<div class="card m-4">
+							<h3 class="card-title">
+								Enter the day you were born.
+							</h3>
 
 							<div class="card-text">
 								<p>
 									This is the final step. You need to enter the day you were
-									born to get your Akan Name. Then click submit to get your
-									name.
+									born to get your Akan Name.
 								</p>
 							</div>
 						</div>
@@ -122,12 +129,7 @@
 						/>
 						<div>
 							<label for="radio" class="radio-inline">
-								<input
-									type="radio"
-									value="female"
-									name="gender"
-									id="yourGender"
-								/>
+								<input type="radio" value="female" name="gender" id="gender" />
 								Male </label
 							><br />
 							<label for="radio" class="radio-inline">
@@ -140,7 +142,7 @@
 						type="submit"
 						id="submit"
 						class="btn btn-danger"
-						onclick="getYourAkanName()"
+						onclick="getYourAkanName ()"
 						value="submit"
 					>
 						Submit

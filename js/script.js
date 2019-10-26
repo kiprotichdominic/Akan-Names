@@ -48,7 +48,7 @@ function getYourAkanName() {
 
 function getYourAkanName() {
 	document.getElementById("alert1").style.display = "block";
-	document.getElementById("span1").innerHTML = ""+daysWeek[dateOfBirth]+ "";
+	document.getElementById("span1").innerHTML = "ghjskdsj";
 	document.getElementById("span2").innerHTML = "dsksks";
 }
 
