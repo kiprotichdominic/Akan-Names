@@ -74,8 +74,16 @@
 					</div>
 				</div>
 			</div>
+			<div class="displayme">
+				<div class="alert-success alert" id="alert1">
+					<p>
+						You were born on,<span id="span1"></span> your Akan Name is
+						<span id="span2"></span>
+					</p>
+				</div>
+			</div>
 			<div class="container jumbotron myform">
-				<form action="#" class="form-group">
+				<form class="form-group" onsubmit="event.preventDefault()">
 					<div class="form-group">
 						<label for="year">Enter The year you were born:</label>
 						<input
@@ -130,9 +138,9 @@
 					</div>
 					<button
 						type="submit"
+						id="submit"
 						class="btn btn-danger"
-						id="my-display"
-						onclick="getYourkanName ()"
+						onclick="getYourAkanName()"
 						value="submit"
 					>
 						Submit
@@ -146,4 +154,3 @@
 		</main>
 	</body>
 </html>
-
