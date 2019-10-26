@@ -30,3 +30,5 @@ This website is an Akan Name generator, that generates names based on the day yo
 - Facebook https://www.facebook.com/iamdommie/
 
 ## Licence
+
+- [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)

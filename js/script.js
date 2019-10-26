@@ -1,7 +1,7 @@
 //hide the alert for name
 document.getElementById("alert1").style.display = "none";
 //declare an array for my names
-var femaleAkanName = [
+var femaleAkanNames = [
 	"Akosua",
 	"Adwoa",
 	"Abenaa",
@@ -10,7 +10,7 @@ var femaleAkanName = [
 	"Afua",
 	"Ama"
 ];
-var maleAkanName = [
+var maleAkanNames = [
 	"Kwasi",
 	"Kwadwo",
 	"Kwabena",
@@ -29,38 +29,43 @@ var daysWeek = [
 	"Friday",
 	"Saturday"
 ];
+
 // declare a function
 function getYourAkanName() {
 	var year = parseInt(document.getElementById("year").value);
 	var month = parseInt(document.getElementById("month").value);
 	var day = parseInt(document.getElementById("day").value);
-
 	var gender = getGender();
 
-	var date = new date(year + "/" + month + "/" + day);
+	var day = new Date(year + "-" + month + "-" + day);
 
-	var dateOfBirth = date.getDaysWeek();
-	var getYourAkanName;
-	// conditions usimng if else statements
+	var dateOfBirth = day.getDay();
+
+	var akanName;
+
+	// conditions using if else statements
 	if (gender === "male") {
-		getYourAkanName = maleAkanName[dateOfBirth];
+		akanName = maleAkanNames[dateOfBirth];
 	} else {
-		getYourAkanName = femaleAkanName[dateOfBirth];
+		akanName = femaleAkanNames[dateOfBirth];
 	}
-}
-
-function getYourAkanName() {
+	// alert(
+	// 	"You were born " +
+	// 		daysWeek[dateOfBirth] +
+	// 		" and your Akan name is " +
+	// 		akanName
+	// );
 	document.getElementById("alert1").style.display = "block";
-	document.getElementById("span1").innerHTML = "ghjskdsj";
-	document.getElementById("span2").innerHTML = "dsksks";
+	document.getElementById("span1").innerHTML = daysWeek[dateOfBirth];
+	document.getElementById("span2").innerHTML = akanName;
 }
 
 function getGender() {
-	var yourGender = document.getElementsById("gender");
+	var gender = document.getElementsByName("gender");
 
-	for (i = 0; i < yourGender.length; i++) {
-		if (yourGender[i].checked) {
-			return yourGender[i].value;
+	for (i = 0; i < gender.length; i++) {
+		if (gender[i].checked) {
+			return gender[i].value;
 		}
 	}
 }
