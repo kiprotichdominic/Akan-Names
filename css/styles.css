@@ -1,8 +1,6 @@
 /* imports files */
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rye&display=swap&subset=latin-ext");
-@import url("bootstrap.min.css");
-@import url("bootstrap.css");
 .container-fluid {
 	font-style: Lato;
 }

@@ -34,8 +34,11 @@ function getYourAkanName() {
 	var year = parseInt(document.getElementById("year").value);
 	var month = parseInt(document.getElementById("month").value);
 	var day = parseInt(document.getElementById("day").value);
+
 	var gender = getGender();
+
 	var date = new date(year + "/" + month + "/" + day);
+
 	var dateOfBirth = date.getDaysWeek();
 	var getYourAkanName;
 	// conditions usimng if else statements
