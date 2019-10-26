@@ -60,27 +60,27 @@
 							<div class="card-title">
 								<h3>
 									Enter the day you were born.
-								</h3>Then
+								</h3>
 							</div>
 
-							<div clasThenrd-text">
+							<div class="card-text">
 								<p>
-									TThens the final step. You need to enter the day you were
-									bTheno get your Akan Name. Then click subit to get your name.
+									This is the final step. You need to enter the day you were
+									born to get your Akan Name. Then click submit to get your
+									name.
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="display my-display" class="col-md-12"></div>
 			<div class="container jumbotron myform">
 				<form action="#" class="form-group">
 					<div class="form-group">
 						<label for="year">Enter The year you were born:</label>
 						<input
 							id="year"
-							type="number"
+							type="text"
 							class="form-control"
 							max="2019"
 							min="1500"
@@ -93,7 +93,7 @@
 						<label for="month">Enter the month you were born:</label>
 						<input
 							id="month"
-							type="number"
+							type="text'"
 							class="form-control"
 							min="1"
 							max="12"
@@ -105,7 +105,7 @@
 						<label for="day">Enter the day you were born:</label>
 						<input
 							id="day"
-							type="number"
+							type="text"
 							class="form-control"
 							min="1"
 							max="31"
@@ -114,11 +114,16 @@
 						/>
 						<div>
 							<label for="radio" class="radio-inline">
-								<input type="radio" name="Male" id="male" />
-								Male
-							</label>
+								<input
+									type="radio"
+									value="female"
+									name="gender"
+									id="yourGender"
+								/>
+								Male </label
+							><br />
 							<label for="radio" class="radio-inline">
-								<input type="radio" name="Male" class="male" />
+								<input type="radio" value="female" name="gender" />
 								Female
 							</label>
 						</div>
@@ -127,7 +132,7 @@
 						type="submit"
 						class="btn btn-danger"
 						id="my-display"
-						onclick="getMyAkanName()"
+						onclick="getYourkanName ()"
 						value="submit"
 					>
 						Submit
@@ -141,3 +146,4 @@
 		</main>
 	</body>
 </html>
+
