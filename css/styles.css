@@ -42,3 +42,17 @@ main {
 	padding-top: 3vh;
 	font-size: 20px;
 }
+.cardx {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 3vh;
+}
+.cardx > p {
+	font-family: "Rye", cursive;
+	font-size: 30px;
+	color: blue;
+}
+.cardx > p > span {
+	color: gold;
+}
