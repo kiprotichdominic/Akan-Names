@@ -37,7 +37,7 @@ function getYourAkanName() {
 	var day = parseInt(document.getElementById("day").value);
 	var gender = getGender();
 
-	var day = new Date(year + "-" + month + "-" + day);
+	var day = new Date(year + "--" + month + "--" + day);
 
 	var dateOfBirth = day.getDay();
 
@@ -49,12 +49,6 @@ function getYourAkanName() {
 	} else {
 		akanName = femaleAkanNames[dateOfBirth];
 	}
-	// alert(
-	// 	"You were born " +
-	// 		daysWeek[dateOfBirth] +
-	// 		" and your Akan name is " +
-	// 		akanName
-	// );
 	document.getElementById("alert1").style.display = "block";
 	document.getElementById("span1").innerHTML = daysWeek[dateOfBirth];
 	document.getElementById("span2").innerHTML = akanName;

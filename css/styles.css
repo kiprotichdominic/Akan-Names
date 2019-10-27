@@ -13,11 +13,18 @@ main {
 	height: 40vh;
 }
 .firstcontent {
-	padding-top: 14vh;
+	padding-top: 7vh;
 }
 .myhead {
 	font-family: "Rye", cursive;
 	font-size: 40px;
+}
+.akan {
+	font-family: "Rye", cursive;
+	font-size: 70px;
+}
+.akan > span {
+	color: rgb(24, 28, 253);
 }
 .myhead1 {
 	font-size: 60px;
@@ -42,7 +49,7 @@ main {
 	text-align: center;
 	padding-top: 3vh;
 	font-size: 20px;
-}
+} 
 .cardx {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -62,4 +69,20 @@ main {
 }
 .myalert {
 	text-align: center;
+}
+
+/* MEDIA QUERRY */
+@media only screen and (max-width: 670px){
+	.myhead{
+		font-size: 20px;
+	}
+	.myhead1 {
+		font-size: 20px;
+	}
+	.howit{
+		font-size: 20px;
+	}
+	.akan {
+		font-size: 20px;
+	}
 }
