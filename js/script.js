@@ -37,7 +37,7 @@ function getYourAkanName() {
 	var day = parseInt(document.getElementById("day").value);
 	var gender = getGender();
 
-	var day = new Date(year + "--" + month + "--" + day);
+	var day = new Date(year + "-" + month + "-" + day);
 
 	var dateOfBirth = day.getDay();
 
