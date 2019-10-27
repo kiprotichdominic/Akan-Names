@@ -2,22 +2,22 @@
 document.getElementById("alert1").style.display = "none";
 //declare an array for my names
 var femaleAkanNames = [
-	"Akosua",
-	"Adwoa",
-	"Abenaa",
-	"Akua",
-	"Yaa",
-	"Afua",
-	"Ama"
+	"Akosua, <img src='/images/akosua.jpg' height='200px'>",
+	"Adwoa, <img src='/images/adwoa.jpg' height='200px'>",
+	"Abenaa, <img src='/images/abena.jpeg' height='200px'>",
+	"Akua, <img src='/images/akua.jpeg' height='200px'>",
+	"Yaa, <img src='/images/yaa.jpeg' height='200px'>",
+	"Afua, <img src='/images/afua.jpg' height='200px'>",
+	"Ama, <img src='/images/ama.jpeg' height='200px'>"
 ];
 var maleAkanNames = [
-	"Kwasi",
-	"Kwadwo",
-	"Kwabena",
-	"Kwaku",
-	"Yaw",
-	"Kofi",
-	"Kwame"
+	"Kwasi, <img src='/images/kwasi.jpg' height='200px'>",
+	"Kwadwo, <img src='/images/kwadwo.jpg' height='200px'>",
+	"Kwabena, <img src='/images/kwabena.jpeg' height='200px'>",
+	"Kwaku, <img src='/images/kwaku.jpg' height='200px'>",
+	"Yaw, <img src='/images/yaw.jpg' height='200px'>",
+	"Kofi, <img src='/images/kofi.jpeg' height='200px'>",
+	"Kwame, <img src='/images/kwame.jpeg' height='200px'>"
 ];
 
 var daysWeek = [

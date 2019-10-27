@@ -49,7 +49,7 @@ main {
 	text-align: center;
 	padding-top: 3vh;
 	font-size: 20px;
-} 
+}
 .cardx {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -70,16 +70,23 @@ main {
 .myalert {
 	text-align: center;
 }
+.form-head {
+	text-align: center;
+	
+}
+.mybtn {
+	margin-left: 50vh;
+}
 
 /* MEDIA QUERRY */
-@media only screen and (max-width: 670px){
-	.myhead{
+@media only screen and (max-width: 670px) {
+	.myhead {
 		font-size: 20px;
 	}
 	.myhead1 {
 		font-size: 20px;
 	}
-	.howit{
+	.howit {
 		font-size: 20px;
 	}
 	.akan {
