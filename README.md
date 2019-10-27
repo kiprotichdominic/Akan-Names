@@ -17,6 +17,8 @@ This website is an Akan Name generator, that generates names based on the day yo
 
 ## Known Bugs
 
+- My website breaks on mobile devices.
+
 ## Technologies Used
 
 - HTML5
