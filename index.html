@@ -75,13 +75,22 @@
 			<div class="displayme container">
 				<div class="alert-success alert myalert container" id="alert1">
 					<p>
-						Awesome! You were born on,<span id="span1"></span> your Akan Name is
+						<span id="span1"></span>
 						<span id="span2"></span>
 					</p>
 				</div>
 			</div>
+			<div class="container">
+				<div class="alert-danger alert myalert container" id="alert2">
+					<p>
+						<span id="span3"></span>
+					</p>
+				</div>
+			</div>
 			<div class="container jumbotron myform">
-				<h3 class="form-head">Fill Form To Get Your Akan Name</h3>
+				<h3 class="form-head">
+					Fill Form To Get Your Akan Name ANd A Free Bracelet
+				</h3>
 				<form class="form-group" onsubmit="event.preventDefault()">
 					<div class="form-group">
 						<label for="year">Enter The year you were born:</label>
@@ -121,11 +130,23 @@
 						/>
 						<div class="myradio">
 							<label for="radio" class="radio-inline">
-								<input type="radio" value="female" name="gender" id="gender" />
+								<input
+									type="radio"
+									value="female"
+									name="gender"
+									id="male"
+									required
+								/>
 								Male </label
 							><br />
 							<label for="radio" class="radio-inline">
-								<input type="radio" value="female" name="gender" />
+								<input
+									type="radio"
+									value="female"
+									name="gender"
+									id="female"
+									required
+								/>
 								Female
 							</label>
 						</div>
@@ -134,13 +155,17 @@
 						type="submit"
 						id="submit"
 						class="btn btn-primary"
-						onclick="getYourAkanName ()"
-						onclick="return validate"
+						onclick="getAkanName()"
 						value="submit"
 					>
 						Submit
 					</button>
-					<button type="reset" class="btn btn-danger mybtn" value="reset">
+					<button
+						type="reset"
+						class="btn btn-danger mybtn"
+						value="reset"
+						onclick="refreshPage()"
+					>
 						Reset
 					</button>
 				</form>
@@ -148,7 +173,7 @@
 			<div class="container-fluid footer">
 				<p>&copy; Kiprotich Dominic</p>
 			</div>
-			<script src="/js/script.js"></script>
 		</main>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
