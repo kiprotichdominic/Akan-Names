@@ -59,8 +59,7 @@ function getAkanName() {
 		document.getElementById("span2").innerHTML = femaleAkanNames[dateOfBirth];
 	}
 }
-//refresh button
-
+//refresh button the whole site
 function refreshPage() {
 	window.location.reload();
 }
