@@ -43,6 +43,7 @@ function getAkanName() {
 		alert(
 			"Be serious, that can't be correct. Console your guardian or parent for correct !!!DATE!!!"
 		);
+		document.getElementById("allertme").style.display = "none";
 	}
 	var day = new Date(year + "/" + month + "/" + day);
 	//storing date in variable date of birth
