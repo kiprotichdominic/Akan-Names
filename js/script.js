@@ -43,7 +43,7 @@ function getYourAkanName() {
 
 	var akanName;
 
-	// conditions using if else statements
+	// conditions using if else statements when radio button is checked
 	if (gender === "male") {
 		akanName = maleAkanNames[dateOfBirth];
 	} else {
